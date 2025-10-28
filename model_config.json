@@ -1,0 +1,33 @@
+{
+    "feature_names": [
+        "temp",
+        "rain_1h",
+        "snow_1h",
+        "clouds_all",
+        "hour",
+        "day_of_week",
+        "is_peak_hour",
+        "is_weekend",
+        "is_holiday",
+        "congestion_index"
+    ],
+    "n_clusters": 4,
+    "cluster_labels": {
+        "0": "Free-Flowing",
+        "1": "Moderate",
+        "2": "Congested",
+        "3": "Gridlocked"
+    },
+    "metrics": {
+        "optimal_k": 20,
+        "cv_score": 0.8967144036069943,
+        "train_accuracy": 1.0,
+        "test_accuracy": 0.9287418317601909,
+        "classes": [
+            "High",
+            "Low",
+            "Medium"
+        ]
+    },
+    "timestamp": "2025-10-26T14:21:33.248982"
+}
